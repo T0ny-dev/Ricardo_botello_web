@@ -1,0 +1,102 @@
+
+.book-promotion-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.title-gradient {
+  font-size: 5em;
+  background: linear-gradient(45deg, #00C1DD, #564848, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.primary-button {
+  background: #00C1DD;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.primary-button:hover {
+  background: #009fbf;
+}
+
+.secondary-button {
+  background: #555;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.secondary-button:hover {
+  background: #333;
+}
+
+.image-container {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.image-container img {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-promotion-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-container, .image-container {
+    max-width: 100%;
+  }
+
+  .text-container {
+    padding: 10px;
+  }
+
+  .title-gradient {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,51 @@
+
+.ribbon {
+  width: 100%;
+  padding: 10vh 0;
+  background: linear-gradient(to right, #00C1DD, #564848, #000000);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.ribbon-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 3vw;
+}
+
+.static-phrase {
+  flex: 1;
+}
+
+.dynamic-phrase {
+  flex: 1;
+  font-weight: 400;
+  text-align: right;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ribbon {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ribbon-content {
+    flex-direction: column;
+    padding: 0;
+  }
+  .dynamic-phrase {
+    text-align: center;
+    margin-top: 10px;
+  }
+}

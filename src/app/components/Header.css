@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vh 3vw;
+  font-family: "Blinker", sans-serif;
+  font-size: 1.2em;
+  border-bottom: 5px solid; /* Adjust the thickness of the border as needed */
+  border-image: linear-gradient(to right, #00C1DD, #DDD6DE) 1;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.navbar ul > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul > a:hover {
+  color: #00C1DD;
+  text-decoration: none;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_primary_header {
+  background: linear-gradient(to right, #00C1DD, #564848);
+  color: white; /* Assuming you want the text to be white */
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 200px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  border-radius: 50px; /* Fully rounded corners */
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  font-size: 1em;
+}

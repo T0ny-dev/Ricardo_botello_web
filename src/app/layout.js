@@ -10,7 +10,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/x-icon"/>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Ricardo Botello"/>
+        <meta name="keywords" content="Conferencista, Orador y Escritor Tamaulipeco  "/>
+        <meta name="lang" content="es"/>
+        <meta property="og:image" content="/ia_nexus_chat.png"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
