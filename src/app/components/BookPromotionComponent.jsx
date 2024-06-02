@@ -13,7 +13,9 @@ const BookPromotionComponent = () => {
         </div>
       </div>
       <div className="image-container">
+      {/* eslint-disable @next/next/no-img-element */}
         <img src="libro.png" alt="Libro" />
+        {/* eslint-enable @next/next/no-img-element */}
       </div>
     </div>
   );
