@@ -1,10 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
 .navbar {
   background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.5vh 3vw;
-  font-family: "Blinker", sans-serif;
   font-size: 1.2em;
   border-bottom: 5px solid; /* Adjust the thickness of the border as needed */
   border-image: linear-gradient(to right, #00C1DD, #DDD6DE) 1;
@@ -29,7 +36,6 @@ ul {
   width: 50%;
   display: flex;
   list-style: none;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -48,4 +54,62 @@ ul {
   text-align: center;
   line-height: 50px; /* Vertically center the text */
   font-size: 1em;
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-name {
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-name:hover {
+  color: #00C1DD;
+}
+
+.dropdown {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
 }

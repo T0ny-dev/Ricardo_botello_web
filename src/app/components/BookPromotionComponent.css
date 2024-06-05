@@ -100,3 +100,46 @@
     font-size: 1em;
   }
 }
+
+.button_primary_video {
+  background: linear-gradient(to right, #00C1DD, #564848);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+  width: auto;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  width: auto;
+}
+
+.button_secondary {
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+  width: 150px;
+  height: 48px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 40px;
+  width: auto;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.button_secondary:hover {
+  background: #fff;
+  color: #00C1DD;
+}

@@ -1,0 +1,96 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.book-c {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.book-list-container {
+  max-height: 100vh;
+  width: 80%;
+  overflow-y: scroll;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-card {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 200px; /* Especifica una altura mínima */
+  flex-shrink: 0; /* Evita que las tarjetas se contraigan */
+}
+
+.book-image {
+  width: 150px;
+  height: 100%; /* Asegura que la imagen ocupe toda la altura del contenedor */
+  object-fit: cover; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.book-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.book-description {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.book-button {
+  padding: 10px 20px;
+  background: #00C1DD;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.book-button:hover {
+  background: #009fbf;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .book-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .book-button {
+    align-self: center;
+  }
+}
