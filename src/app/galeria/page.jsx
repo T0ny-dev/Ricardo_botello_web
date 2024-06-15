@@ -5,7 +5,8 @@ import Header from "../components/Header"
 import BackgroundContainer from "../components/BackgroundContainer";
 import Title from "../components/ui/title";
 import BookPromotionComponent from "../components/BookPromotionComponent";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer";7
+import NavbarMobile from "../components/NavbarMobile";
 
 
 function Galeria() {
@@ -27,6 +28,7 @@ function Galeria() {
   return (
     <div>
       <Header/>
+      <NavbarMobile/>
       <BackgroundContainer title="Galeria"/>
       <Title title={"Fotos"}/>
       <Gallery images={images} />

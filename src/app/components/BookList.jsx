@@ -12,7 +12,7 @@ const BookList = ({ books }) => {
               <h2 className="book-title">{book.title}</h2>
               <p className="book-description">{book.description}</p>
               <a href={book.link} target="_blank" rel="noopener noreferrer" className="book-button">
-                Learn More
+                Leer en línea
               </a>
             </div>
           </div>

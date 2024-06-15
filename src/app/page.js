@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import NavbarMobile from "./components/NavbarMobile";
 import VideoBackgroundComponent from "./components/VideoBackgroundComponent";
 import RibbonComponent from "./components/RibbonComponent";
 import DescriptionComponent from "./components/DescriptionComponent";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <main className="main">
       <Header/>
+      <NavbarMobile/>
       <VideoBackgroundComponent/>
       <RibbonComponent/>
       <Title title="CONFERENCIAS Y TALLERES"/>

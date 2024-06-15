@@ -11,10 +11,10 @@ const Footer = () => {
             <div className="footer-column">
                 <h4 className="footer-title">Enlaces</h4>
                 <ul className="footer-links">
-                    <li><a href="#link1">Enlace 1</a></li>
-                    <li><a href="#link2">Enlace 2</a></li>
-                    <li><a href="#link3">Enlace 3</a></li>
-                    <li><a href="#link4">Enlace 4</a></li>
+                    <li><a href="/galeria">Galeria</a></li>
+                    <li><a href="/conferencias-talleres">Conferencias y Talleres</a></li>
+                    <li><a href="/libros-gratis">Libros Gratis</a></li>
+                    <li><a href="/contacto">Contacto</a></li>
                 </ul>
             </div>
             <div className="footer-column">

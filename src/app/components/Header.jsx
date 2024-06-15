@@ -28,9 +28,9 @@ const Navbar = () => {
           <div className="dropdown">
             <a href="#whoami">Quién Soy</a>
             <hr />
-            <a href="https://www.conferencistas.eu" target="_blank" rel="noopener noreferrer">Verme en Conferencistas.eu</a>
+            <a href="https://conferencistas.eu/botello/" target="_blank" rel="noopener noreferrer">Verme en Conferencistas.eu</a>
             <hr />
-            <a href="#digitalcard">Tarjeta Digital</a>
+            <a href="/tarjeta-digital">Tarjeta Digital</a>
           </div>
         )}
       </div>

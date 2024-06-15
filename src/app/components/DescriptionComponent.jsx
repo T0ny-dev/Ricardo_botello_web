@@ -6,7 +6,7 @@ const DescriptionComponent = () => {
   return (
     <div className="description-container">
       <div className="photo-container">
-        <Image src="/perfil_rb.png" alt="Ricardo Botello" width={150} height={150} />
+        <Image src="https://i.postimg.cc/KjNH0gLT/Component-4.png" alt="Ricardo Botello" width={500} height={500} />
       </div>
       <div className="content-container_b">
         <h1>Ricardo Botello</h1>

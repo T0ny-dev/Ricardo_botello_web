@@ -117,6 +117,10 @@ body > main > div.video-container > div > div.title > h1 {
   color: #00C1DD;
 }
 
+#title_description {
+ font-size: 1.5em;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .logos {

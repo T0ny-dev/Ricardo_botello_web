@@ -1,0 +1,144 @@
+/* page.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex: 1;
+  max-height: 50%;
+}
+
+.logo_v {
+  display: flex;
+  justify-content: center;
+  padding: 3vh 5vw 2vh 5vw;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo_v img {
+  object-fit: cover;
+  width: 40%;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.bottom-container {
+  display: flex;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  background-image: url("/bg-rb.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.links-list li {
+  margin: 10px 0;
+}
+
+.links-list li a {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  height: 64px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #00C1DD, #564848);
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.links-list li img {
+  margin-right: 2vw;
+}
+
+.links-list li a:hover {
+  background: linear-gradient(90deg, #564848, #00C1DD);
+}
+
+/* Responsivo para pantallas menores a 600px */
+@media (max-width: 600px) {
+  .top-container {
+    height: 60%;
+  }
+
+  .bottom-container {
+    height: 40%;
+  }
+
+  .links-list li a {
+    width: 80%;
+  }
+}
+
+body > div:nth-child(1) > footer {
+  margin-top: 0vh;
+}
