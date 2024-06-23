@@ -26,7 +26,7 @@ const Navbar = () => {
         <span onClick={toggleDropdown} className="profile-name">Ricardo Botello</span>
         {isDropdownOpen && (
           <div className="dropdown">
-            <a href="#whoami">Quién Soy</a>
+            <a href="/contacto">Quién Soy</a>
             <hr />
             <a href="https://conferencistas.eu/botello/" target="_blank" rel="noopener noreferrer">Verme en Conferencistas.eu</a>
             <hr />
@@ -34,7 +34,9 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      <a href="/contacto">
       <button className="button_primary_header">Contacto</button>
+      </a>
     </nav>
   );
 };

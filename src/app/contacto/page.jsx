@@ -2,9 +2,13 @@
 
 import React, { useState } from 'react';
 import Header from "../components/Header"
+import DescriptionComponent from '../components/DescriptionComponent';
 import Footer from '../components/Footer';
+import NavbarMobile from '../components/NavbarMobile';
+import RibbonWhatsAppComponent from '../components/RibbonWhatsAppComponent';
 import "./page.css"
 import emailjs from 'emailjs-com';
+import Title from '../components/ui/title';
 import './page.css'; // Importamos los estilos
 
 const ContactForm = () => {
@@ -52,6 +56,10 @@ const ContactForm = () => {
   return (
     <>
     <Header/>
+    <NavbarMobile/>
+    <Title title="Contacto"/>
+    <DescriptionComponent/>
+    <RibbonWhatsAppComponent/>
     <div className="contact-form-container">
       <h2>Contáctanos</h2>
       <form onSubmit={handleSubmit}>
