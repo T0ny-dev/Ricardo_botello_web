@@ -84,6 +84,42 @@ body > main > div.description-container > div.content-container_b > h1 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .carousel img {
+    width: auto;
+    height: 50px;
+  }
+
+  body > main > div.description-container > div.content-container_b > h1 {
+    font-size: 3em;
+  }
+
+  .content-container_b {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .photo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  body > main > div.description-container > div.content-container_b > p {
+    width: 85vw;
+    text-align: center;
+  }
+
+  body > main > div.description-container > div.photo-container > img {
+    width: 300px;
+    height: auto;
+  }
+
+
   .description-container {
     flex-direction: column;
   }

@@ -123,6 +123,20 @@ body > main > div.video-container > div > div.title > h1 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  body > main > div.video-container > div.content-container > div.logos > img:nth-child(1) {
+    width: 400px;
+    height: 60px;
+  }
+
+  .logos {
+    align-items: center;
+  }
+
+  body > main > div.video-container > div.content-container > div.logos > img:nth-child(2) {
+    width: 80px;
+  }
+
   .logos {
     flex-direction: column;
   }
