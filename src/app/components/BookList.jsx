@@ -11,9 +11,12 @@ const BookList = ({ books }) => {
             <div className="book-details">
               <h2 className="book-title">{book.title}</h2>
               <p className="book-description">{book.description}</p>
-              <a href={book.link} target="_blank" rel="noopener noreferrer" className="book-button">
-                Leer en línea
-              </a>
+              {book.link && (
+                <a href={book.link} target="_blank" rel="noopener noreferrer" className="book-button">
+                  Leer en línea
+                </a>
+              )}
+
             </div>
           </div>
         ))}
