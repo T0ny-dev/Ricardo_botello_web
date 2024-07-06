@@ -1,7 +1,0 @@
-body > div:nth-child(1) > div.book-c > div > div > img {
-  width: 300px;
-}
-
-body > div:nth-child(1) > div.book-c > div > div > div > a {
-  display: none;
-}

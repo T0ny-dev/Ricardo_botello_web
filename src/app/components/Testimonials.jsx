@@ -5,12 +5,20 @@ const Testimonials = () => {
   const videos = [
     {
       id: 1,
-      src: "https://drive.google.com/file/d/1KUhtBrZPpXVYsQ1RxtZHPbixPgt6Z1uR/preview",
+      src: "https://drive.google.com/file/d/1r04zfxxeHARuG2ctBXNVOI-AF104BW4r/preview",
     },
 
     {
       id: 2,
-      src: "https://drive.google.com/file/d/1ZKcZ_aVxgJXAF95nQ2NTfz1VQ16iDu_i/preview",
+      src: "https://drive.google.com/file/d/1wysOpoiojaS4uo4SdBb0CsIXJ2hTywjF/preview",
+    },
+    {
+      id: 3,
+      src: "https://drive.google.com/file/d/1OH3_pywpIazlWyeTefIHSpq17q1Ytj29/preview",
+    },
+    {
+      id: 4,
+      src: "https://drive.google.com/file/d/11FB9XhW_0qz0YL7qk6kT-PHmHCmpm2Ec/preview",
     },
 
     // Agrega más objetos de video aquí si tienes más URLs
