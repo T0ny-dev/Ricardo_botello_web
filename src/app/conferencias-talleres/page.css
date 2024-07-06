@@ -1,0 +1,3 @@
+body > div:nth-child(1) > div.book-c > div > div:nth-child(1) > div > a {
+  display: none;
+}
