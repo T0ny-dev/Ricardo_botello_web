@@ -5,12 +5,12 @@ const Testimonials = () => {
   const videos = [
     {
       id: 1,
-      src: "https://drive.google.com/file/d/1r04zfxxeHARuG2ctBXNVOI-AF104BW4r/preview",
+      src: "https://drive.google.com/file/d/1wysOpoiojaS4uo4SdBb0CsIXJ2hTywjF/preview",
     },
 
     {
       id: 2,
-      src: "https://drive.google.com/file/d/1wysOpoiojaS4uo4SdBb0CsIXJ2hTywjF/preview",
+      src: "https://drive.google.com/file/d/1r04zfxxeHARuG2ctBXNVOI-AF104BW4r/preview",
     },
     {
       id: 3,

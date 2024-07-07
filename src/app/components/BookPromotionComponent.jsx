@@ -5,7 +5,7 @@ const BookPromotionComponent = () => {
   return (
     <div className="book-promotion-container">
       <div className="text-container">
-        <h1 className="title-gradient">Disponible ahora</h1>
+        <h1 className="title-gradient">Próximamente</h1>
         <p className="description">¡Es la hora de convertirte en un líder que tenga influencia positiva! 
         Este libro aprenderás a dominar las tácticas para hablar con poder e influir en las personas...</p>
         <div className="button-container">

@@ -26,6 +26,12 @@ function Galeria() {
     { src: '/evento15.jpg', },
     { src: '/evento16.jpg', },
     { src: '/evento17.jpg', },
+    { src: '/b1.jpg', },
+    { src: '/b2.jpg', },
+    { src: '/b3.jpg', },
+    { src: '/b4.jpg', },
+    { src: '/b5.jpg', },
+    { src: '/b6.jpg', },
     
     // Add more images here
   ];
