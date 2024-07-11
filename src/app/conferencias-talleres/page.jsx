@@ -10,6 +10,11 @@ import "./page.css"
 
 const books = [
   {
+    title: "Habla menos persuade más, deja de perder el tiempo y vende más",
+    description: "Taller",
+    image: "/taller15.jpg",
+  },
+  {
     title: "Comunicación Verbal Avanzada",
     description: "Taller",
     image: "/taller1.jpg",

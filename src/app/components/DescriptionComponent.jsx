@@ -11,7 +11,9 @@ const DescriptionComponent = () => {
       <div className="content-container_b">
         <h1>Ricardo Botello</h1>
         <p>
-          Ha impartido charlas sobre superación personal, lenguaje corporal y trabajo en equipo, entre otros temas. Autor de varios libros, su obra incluye títulos como &quot;Cómo ser un Orador Eficaz&quot; y &quot;Hable con Seguridad&quot;. Su estilo es conocido por su sencillez y dinamismo, logrando inspirar a su audiencia a transformar sus vidas positivamente​.
+        Psicólogo, abogado, escritor y orador certificado de alto impacto por la Cámara Internacional de Conferencistas. Destacado conferencista motivacional de la Red Mundial de Conferencistas. Con más de tres décadas en el Arte de hablar en público. Durante estos años ha llegado con éxito a miles de personas en diversas empresas, instituciones educativas y organizaciones de servicio. Su filosofía: "La fórmula de la felicidad está en nosotros mismos" 
+Actualmente es considerado como uno de los mejores conferencistas que logra cautivar con su juventud y sencillez a miles de personas que al escucharlo transforman sus vidas de manera positiva.
+Es Miembro Gold de la Red Mundial de Conferencistas con sede en Alemania Y Orador Certificado de la Cámara Internacional de conferencistas.
         </p>
         <div className="impact-container">
           <div className="impact-images">
