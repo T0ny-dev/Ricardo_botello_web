@@ -1,0 +1,140 @@
+
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vh 5vw;
+}
+
+.photo-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.photo-container img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-container_b {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.content-container_b > h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #000;
+}
+
+body > main > div.description-container > div.content-container_b > h1 {
+  font-size: 4em;
+}
+
+.content-container_b p {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.impact-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.impact-images {
+  display: flex;
+  gap: 10px;
+}
+
+.impact-images img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.impact-text {
+  margin-left: 20px;
+  color: #000;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 50s linear infinite;
+}
+
+.carousel img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-650%); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .carousel img {
+    width: auto;
+    height: 50px;
+  }
+
+  body > main > div.description-container > div.content-container_b > h1 {
+    font-size: 3em;
+  }
+
+  .content-container_b {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .photo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  body > main > div.description-container > div.content-container_b > p {
+    width: 85vw;
+    text-align: center;
+  }
+
+  body > main > div.description-container > div.photo-container > img {
+    width: 300px;
+    height: auto;
+  }
+
+
+  .description-container {
+    flex-direction: column;
+  }
+
+  .impact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .impact-images {
+    justify-content: center;
+  }
+
+  .impact-text {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

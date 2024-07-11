@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import NavbarMobile from "./components/NavbarMobile";
 import VideoBackgroundComponent from "./components/VideoBackgroundComponent";
 import RibbonComponent from "./components/RibbonComponent";
-import DescriptionComponent from "./components/DescriptionComponent";
+import DescriptionComponent2 from "./Description2";
 import RibbonWhatsAppComponent from "./components/RibbonWhatsAppComponent";
 import Title from "./components/ui/title";
 import ConferenceComponent from "./components/ConferenceComponent";
@@ -20,7 +20,7 @@ export default function Home() {
       <Testimonials/>
       <RibbonComponent/>
       <Title title="CONFERENCIAS Y TALLERES"/>
-      <DescriptionComponent/>
+      <DescriptionComponent2/>
       <RibbonWhatsAppComponent/>
       <ConferenceComponent/>
       <Title title="GALERÍA"/>
