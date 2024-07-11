@@ -9,7 +9,9 @@ const BookPromotionComponent = () => {
         <p className="description">¡Es la hora de convertirte en un líder que tenga influencia positiva! 
         Este libro aprenderás a dominar las tácticas para hablar con poder e influir en las personas...</p>
         <div className="button-container">
-          <button className="button_primary_video">tener libro fisico</button>
+          <a href="https://wa.link/mbn8sx">
+            <button className="button_primary_video">tener libro fisico</button>
+          </a>
           <a href="/libros-gratis" style={{textDecoration:"none"}}>
             <button className="button_secondary">Libros Gratis</button>
           </a>

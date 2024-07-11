@@ -23,6 +23,19 @@
   gap: 10px;
 }
 
+.testimonial-p-box {
+  background-color: #000000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2vw 3vw;
+}
+
+.testimonial-p {
+  color: #ffffff;
+  width: 85%;
+}
+
 iframe {
   flex: 0 0 auto;
   border: none;

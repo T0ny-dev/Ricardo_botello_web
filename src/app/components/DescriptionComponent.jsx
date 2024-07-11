@@ -11,7 +11,7 @@ const DescriptionComponent = () => {
       <div className="content-container_b">
         <h1>Ricardo Botello</h1>
         <p>
-        Psicólogo, abogado, escritor y orador certificado de alto impacto por la Cámara Internacional de Conferencistas. Destacado conferencista motivacional de la Red Mundial de Conferencistas. Con más de tres décadas en el Arte de hablar en público. Durante estos años ha llegado con éxito a miles de personas en diversas empresas, instituciones educativas y organizaciones de servicio. Su filosofía: `&quot;` La fórmula de la felicidad está en nosotros mismos `&quot;`
+        Psicólogo, abogado, escritor y orador certificado de alto impacto por la Cámara Internacional de Conferencistas. Destacado conferencista motivacional de la Red Mundial de Conferencistas. Con más de tres décadas en el Arte de hablar en público. Durante estos años ha llegado con éxito a miles de personas en diversas empresas, instituciones educativas y organizaciones de servicio.<br/> Su filosofía: "La fórmula de la felicidad está en nosotros mismos"
 Actualmente es considerado como uno de los mejores conferencistas que logra cautivar con su juventud y sencillez a miles de personas que al escucharlo transforman sus vidas de manera positiva.
 Es Miembro Gold de la Red Mundial de Conferencistas con sede en Alemania Y Orador Certificado de la Cámara Internacional de conferencistas.
         </p>

@@ -45,7 +45,7 @@ const books = [
   },
   {
     title: "LAS VACAS NO DAN LECHE",
-    description: "Todos, en algún momento, hemos tenido que afrontar dificultades gigantescas, enfermedades, incluso hasta tener que enfrentar la tan lamentable perdida de algunos familiares que se van.¿Cuáles son las vacas que tienes en tu vida? Con la lectura de este libro te darás cuenta cómo Dios te pondrá donde Él quiera. No importa si la gente cree que te mereces esa posición...¿Estás seguro que las Vacas Dan Leche?¡Descubre una nueva forma de lograr tus metas!",
+    description: "Próximamente",
     link: "",
     image: "/VACAS.png",
   },

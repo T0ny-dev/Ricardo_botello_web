@@ -6,7 +6,7 @@ const RibbonWhatsAppComponent = () => {
     <div className="ribbon">
       <div className="ribbon-content">
         <span className="help-phrase">¿Necesitas ayuda? Hablemos por WhatsApp</span>
-        <a href="https://wa.me/yourwhatsapplink" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
+        <a href="https://wa.link/mbn8sx" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
         Escribir por WhatsApp
         </a>
       </div>

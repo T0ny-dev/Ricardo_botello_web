@@ -24,7 +24,7 @@ const RibbonComponent = () => {
     <div className="ribbon">
       <div className="ribbon-content">
         <div className="static-phrase">
-          Motivacion con frases en vivo
+          Motivación con frases en vivo
         </div>
         <div className="dynamic-phrase">
           {phrases[currentPhraseIndex]}

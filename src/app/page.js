@@ -23,7 +23,7 @@ export default function Home() {
       <DescriptionComponent/>
       <RibbonWhatsAppComponent/>
       <ConferenceComponent/>
-      <Title title="GALERIA"/>
+      <Title title="GALERÍA"/>
       <ImageTextComponent/>
       <BookPromotionComponent/>
       <Footer/>

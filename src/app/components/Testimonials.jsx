@@ -25,6 +25,7 @@ const Testimonials = () => {
   ];
 
   return (
+    <>
     <div className="testimonials-container">
       <h2>Testimoniales y casos de éxito</h2>
       <hr />
@@ -41,6 +42,10 @@ const Testimonials = () => {
         ))}
       </div>
     </div>
+    <div className='testimonial-p-box'>
+      <p className='testimonial-p'>Ha impartido charlas sobre superación personal, lenguaje corporal y trabajo en equipo, entre otros temas. Autor de varios libros, sus obras incluyen títulos como; “Cómo ser un Orador Eficaz”, “Hable con Seguridad”, “De Joven a Joven te reto a triunfar”, “cómo triunfar como padres”, “Los mejores inicios y finales”, “las vacas no dan leche” y actualmente se encuentra escribiendo su próximo libro “Tácticas”. Su estilo es conocido por su sencillez y dinamismo, logrando inspirar a su audiencia a transformar sus vidas positivamente. </p>
+    </div>
+    </>
   );
 };
 

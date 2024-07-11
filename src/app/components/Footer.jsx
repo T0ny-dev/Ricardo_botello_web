@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-column">
                 <img src="logo.png" alt="Logo" className="footer-logo" />
-                <p className="footer-description">Ricardo Botello siempre había soñado con explorar los rincones más recónditos del mundo.</p>
+                <p className="footer-description">Ricardo Botello es un reconocido orador y escritor mexicano con más de tres décadas de experiencia en conferencias motivacionales. </p>
             </div>
             <div className="footer-column">
                 <h4 className="footer-title">Enlaces</h4>
@@ -19,9 +19,9 @@ const Footer = () => {
             </div>
             <div className="footer-column">
                 <h4 className="footer-title">Contacto</h4>
-                <p className="footer-contact">Rio Bravo, Tamaulipas, MX <br></br>
-+52 899 445 45578 <br></br>
-botello@gmail.com</p>
+                <p className="footer-contact">REYNOSA, TAMAULIPAS MX <br></br>
++52 899 204 5868 <br></br>
+ricardobotellocisneros@hotmail.com</p>
             </div>
         </footer>
     );
