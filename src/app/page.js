@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import NavbarMobile from "./components/NavbarMobile";
 import VideoBackgroundComponent from "./components/VideoBackgroundComponent";
-import RibbonComponent from "./components/RibbonComponent";
 import DescriptionComponent2 from "./Description2";
 import RibbonWhatsAppComponent from "./components/RibbonWhatsAppComponent";
 import Title from "./components/ui/title";
@@ -18,7 +17,6 @@ export default function Home() {
       <NavbarMobile/>
       <VideoBackgroundComponent/>
       <Testimonials/>
-      <RibbonComponent/>
       <Title title="CONFERENCIAS Y TALLERES"/>
       <DescriptionComponent2/>
       <RibbonWhatsAppComponent/>
