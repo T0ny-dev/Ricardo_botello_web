@@ -211,7 +211,7 @@ const books = [
     image: "/50.jpg",
   },
   {
-    title: "Estrés labora ¡Quítate un peso de encima!",
+    title: "Estrés laboral ¡Quítate un peso de encima!",
     description: "Conferencia",
     image: "/51.jpg",
   },
