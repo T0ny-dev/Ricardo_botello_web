@@ -39,10 +39,8 @@ const DescriptionComponent2 = () => {
             <Image src="/11.png" alt="Logo 13" width={100} height={50} />
             <Image src="/12.png" alt="Logo 14" width={100} height={50} />
             <Image src="/13.png" alt="Logo 15" width={100} height={50} />
-            <Image src="/14.png" alt="Logo 16" width={100} height={50} />
             <Image src="/15.png" alt="Logo 17" width={100} height={50} />
             <Image src="/17.png" alt="Logo 19" width={100} height={50} />
-            <Image src="/18.png" alt="Logo 20" width={100} height={50} />
             <Image src="/19.png" alt="Logo 21" width={100} height={50} />
             <Image src="/21.png" alt="Logo 23" width={100} height={50} />
             <Image src="/22.png" alt="Logo 24" width={100} height={50} />
