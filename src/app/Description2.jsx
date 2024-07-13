@@ -11,7 +11,7 @@ const DescriptionComponent2 = () => {
       <div className="content-container_b">
         <h1>Ricardo Botello</h1>
         <p>
-        Ha impartido charlas sobre superación personal, lenguaje corporal y trabajo en equipo, entre otros temas. Autor de varios libros, sus obras incluyen títulos como; Cómo ser un Orador Eficaz, Hable con Seguridad, De Joven a Joven te reto a triunfar, cómo triunfar como padres, Los mejores inicios y finales, las vacas no dan leche y actualmente se encuentra escribiendo su próximo libro Tácticas. Su estilo es conocido por su sencillez y dinamismo, logrando inspirar a su audiencia a transformar sus vidas positivamente.
+        Ha impartido charlas sobre superación personal, lenguaje corporal y trabajo en equipo, entre otros temas. Autor de varios libros, sus obras incluyen títulos como; Cómo ser un Orador Eficaz, Hable con Seguridad, De Joven a Joven te reto a triunfar, Cómo triunfar como padres, Los mejores inicios y finales, las vacas no dan leche y actualmente se encuentra escribiendo su próximo libro Tácticas para hablar en público. Su estilo es conocido por su sencillez y dinamismo, logrando inspirar a su audiencia a transformar sus vidas positivamente.
         </p>
         <div className="impact-container">
           <div className="impact-images">

@@ -26,6 +26,7 @@ function NavbarMobile() {
             <li><a href="/conferencias-talleres">Conferencias y Talleres</a></li>
             <li><a href="/libros-gratis">Libros gratis</a></li>
             <li><a href="/contacto">Quien soy</a></li>
+            <li><a href="https://conferencistas.eu/botello/" target='_blank' >Verme en Conferencistas.eu</a></li>
             <li><a href="/tarjeta-digital">Tarjeta Digital</a></li>
           </ul>
         </div>

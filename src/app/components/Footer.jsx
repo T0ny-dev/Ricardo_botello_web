@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-column">
                 <img src="logo.png" alt="Logo" className="footer-logo" />
-                <p className="footer-description">Ricardo Botello es un reconocido orador y escritor mexicano con más de tres décadas de experiencia en conferencias motivacionales. </p>
+                <p className="footer-description">Ricardo Botello es un reconocido orador y escritor mexicano con más 17 años de experiencia en conferencias motivacionales y más de tres décadas en el arte de hablar en público. </p>
             </div>
             <div className="footer-column">
                 <h4 className="footer-title">Enlaces</h4>
