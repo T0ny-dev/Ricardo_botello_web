@@ -181,7 +181,7 @@ const books = [
     image: "/44.jpg",
   },
   {
-    title: "Cuando los elfantes pelean, la hierba es la que sufre",
+    title: "Cuando los elefantes pelean, la hierba es la que sufre",
     description: "Conferencia",
     image: "/45.jpg",
   },
@@ -236,7 +236,7 @@ const books = [
     image: "/55.jpg",
   },
   {
-    title: "No son ellos somos nosotros",
+    title: "No son ellos, somos nosotros",
     description: "Conferencia",
     image: "/56.jpg",
   },
@@ -307,7 +307,7 @@ const books = [
     image: "/70.jpg",
   },
   {
-    title: "¿sin batería? Para continuar viviendo, por favor coencte el cargador",
+    title: "¿Sin batería? Para continuar viviendo, por favor coencte el cargador",
     description: "Conferencia",
     image: "/71.jpg",
   },
